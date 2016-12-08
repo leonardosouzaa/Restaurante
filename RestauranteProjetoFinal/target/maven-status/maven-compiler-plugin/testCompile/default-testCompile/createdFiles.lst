@@ -1,4 +1,4 @@
-com/iftm/restaurante/model/CarrinhoComprasTest.class
-com/iftm/restaurante/model/PedidoTest.class
-com/exemplo/tests/TesteSeleniumFecharConta.class
-com/exemplo/tests/TesteSeleniumCadastro.class
+com\iftm\restaurante\model\PedidoTest.class
+com\exemplo\tests\TesteSeleniumCadastro.class
+com\exemplo\tests\TesteSeleniumFecharConta.class
+com\iftm\restaurante\model\CarrinhoComprasTest.class
