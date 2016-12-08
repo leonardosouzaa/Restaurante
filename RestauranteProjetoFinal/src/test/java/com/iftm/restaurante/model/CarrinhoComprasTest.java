@@ -45,7 +45,9 @@ public class CarrinhoComprasTest {
         mockCarrinhoCompras.adicionarItem(quantidade, produto);
         assertEquals(createNewListItensWithProdutos(), mockCarrinhoCompras.getItens());
     }
-
+    
+  
+    
     @Test
     public void testEsvaziar() {
         CarrinhoCompras mockCarrinhoCompras = mock(CarrinhoCompras.class);
@@ -62,14 +64,17 @@ public class CarrinhoComprasTest {
         return mockProduto;
     }
     
-    private List<Item> createNewListItensEmpty(){
-        List<Item> itens = new ArrayList<>();
-        return itens;
-    }
+    
     
     private List<Item> createNewListItensWithProdutos(){
         List<Item> itens = new ArrayList<>();
         Item item = new Item(1, 2, createMockProduto());
         return itens;
     }
+    
+      private List<Item> createNewListItensEmpty(){
+        List<Item> itens = new ArrayList<>();
+        return itens;
+    }
+    
 }

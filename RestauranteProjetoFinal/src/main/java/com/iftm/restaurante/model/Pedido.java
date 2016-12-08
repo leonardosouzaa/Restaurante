@@ -60,4 +60,11 @@ public class Pedido {
         itens.add(new Item(quantidade, produto));
         valor += quantidade * produto.getPreco();
     }
+
+    @Override
+    public String toString() {
+        return "Pedido{" + "codigo=" + codigo + ", dataCompra=" + dataCompra + ", valor=" + valor + ", numeroMesa=" + numeroMesa + ", itens=" + itens + '}';
+    }
+    
+    
 }
