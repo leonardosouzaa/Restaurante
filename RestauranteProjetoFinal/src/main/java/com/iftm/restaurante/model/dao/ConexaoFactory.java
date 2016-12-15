@@ -11,8 +11,8 @@ public class ConexaoFactory {
         String host = "localhost";
         String porta = "3306";
         String bd = "restaurante";
-        String login = "homestead";
-        String senha = "secret";
+        String login = "admin";
+        String senha = "12345";
         String url = caminho + "://" + host + ":" + porta + "/" + bd;
 
         Connection conexao = null;
