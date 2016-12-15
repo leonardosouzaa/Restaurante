@@ -8,7 +8,7 @@ public class ConexaoFactory {
 
     public static Connection getConexao() throws SQLException {
         String caminho = "jdbc:mysql";
-        String host = "localhost";
+        String host = "mariadb";
         String porta = "3306";
         String bd = "restaurante";
         String login = "admin";
